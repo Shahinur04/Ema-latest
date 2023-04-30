@@ -1,10 +1,11 @@
 import React from 'react';
 import './login.css'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
         <div className='form-container'>
-            <h2 className='form-title'>Please sign In</h2>
+            <h2 className='form-title'>Log In</h2>
             <form >
                 <div className="from-control">
                     <label htmlFor=''>Email</label>
@@ -17,6 +18,7 @@ const Login = () => {
                 <input className='btn-submit' type="submit" value="login" />
 
             </form>
+            <p><small>If you new ?<Link to="/signUp">SignUp</Link></small></p>
         </div>
     );
 };
