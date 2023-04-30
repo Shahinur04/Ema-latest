@@ -1,6 +1,6 @@
 .form-container{
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     background-color: beige;
     border-radius: 8px;
     border: 2px solid aqua;
@@ -15,14 +15,36 @@
 }
 .from-control label{
     display: block;
+    font-size: larger;
+    color: rgb(67, 0, 252);
+    text-align: left;
     
     
 }
 .from-control input{
     border-radius: 5px;
-    padding: 5px;
+    width: 300px;
+    padding: 8px;
+    margin-right: 100px;
+    /* border: 1.5em; */
+    /* margin: 0 5px; */
 }
 .from-control{
     text-align: center;
     padding: 10px;
+}
+.btn-submit:hover{
+    background: rgb(255,153,0,0.6);
+}
+.btn-submit{
+    border-radius: 5px;
+    width: 400px;
+    padding: 8px;
+    /* margin-right: 100px; */
+    width: 300px;
+    border: none;
+    background: rgb(255,153,0,0.3);
+    margin-left: 20px;
+    font-size: larger;
+    margin-top: 20px;
 }

@@ -10,6 +10,12 @@ const Login = () => {
                     <label htmlFor=''>Email</label>
                     <input type="email" name="email" id="" required/>
                 </div>
+                <div className="from-control">
+                    <label htmlFor=''>Password</label>
+                    <input type="password" name="password" id="" required/>
+                </div>
+                <input className='btn-submit' type="submit" value="login" />
+
             </form>
         </div>
     );
