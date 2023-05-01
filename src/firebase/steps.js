@@ -8,4 +8,8 @@
  * ****
  * 
  * 
- * create context provider****/ 
+ * create context provider file
+ * create share api createContext and set provider
+ * set the children props
+ * set the provider 
+ * ****/ 
